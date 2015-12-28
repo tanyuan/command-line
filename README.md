@@ -2,7 +2,7 @@
 
 Some frequently used shell scripts and tips.
 
-Read this: [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ## Moving around in shell
 
@@ -11,15 +11,19 @@ Shortcuts are Emacs-like.
 `Alt-.`: repeat last argument
 
 `Ctrl-p`(previous), `Ctrl-n`(next): history
+
 `Ctrl-r`: search previous commands
 
-
 `Ctrl-a`(Letter A): move to start of line
+
 `Ctrl-e`(End): move to end of line
 
 `Ctrl-b`(backward): move backward a letter
+
 `Ctrl-f`(forward): move forward a letter
+
 `Alt-b`(backward): move backward a word
+
 `Alt-f`(forward): move forward a word
 
 `Ctrl-w`(word): delete last word
@@ -89,7 +93,7 @@ sudo renice -9 PID
 time PROGRAM
 ```
 
-## Convert from Big5 to UTF-8
+## Convert from Big-5 to UTF-8
 
 ```
 iconv -f big5 -t utf8 FILE
@@ -97,10 +101,8 @@ iconv -f big5 -t utf8 FILE
 
 ## Remote copy
 
-```
-scp SOURCE TARGET
-```
+Secure Copy SOURCE TARGET
 
 ```
-scp [-r] USERNAME@IP:DIR LOCAL_DIR
+scp [-r] USERNAME@IP:DIR TARGET_DIR
 ```
