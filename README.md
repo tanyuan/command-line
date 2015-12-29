@@ -10,9 +10,13 @@ Shortcuts are Emacs-like.
 
 `Alt-.`: repeat last argument
 
+### History
+
 `Ctrl-p`(previous), `Ctrl-n`(next): history
 
 `Ctrl-r`: search previous commands
+
+### Cursor
 
 `Ctrl-a`(Letter A): move to start of line
 
@@ -26,7 +30,18 @@ Shortcuts are Emacs-like.
 
 `Alt-f`(forward): move forward a word
 
-`Ctrl-w`(word): delete last word
+### Editting
+
+`Ctrl-w`(word): delete last word segmented by whitespaces
+`Alt-d`: delete a word forward
+
+### Control
+
+`Ctrl-c`: cancel current process
+
+`Ctrl-l`: clear the screen 
+
+`Ctrl-d`: exit current shell
 
 ### Copy an argument again in current line:
 
