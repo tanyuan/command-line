@@ -2,7 +2,13 @@
 
 Some frequently used shell scripts and tips.
 
-Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
+Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line).
+
+## Key Remapping
+
+I swap `Backspace` and `Backslash/Pipe` key in `.bashrc`.
+
+I remap `Caps Lock` to `Ctrl` in GNOME Tweak Tool.
 
 ## Moving around in shell
 
@@ -33,6 +39,7 @@ Shortcuts are Emacs-like.
 ### Editting
 
 `Ctrl-w`(word): delete last word segmented by whitespaces
+
 `Alt-d`: delete a word forward
 
 ### Control
@@ -53,6 +60,12 @@ Shortcuts are Emacs-like.
 
 1. `Alt-b` go backward.
 2. `Alt-d` to kill a word.
+
+## Autojump
+
+Install [Autojump](https://github.com/wting/autojump).
+
+`j DIR` to jump to frecency (frequency+recency) directory.
 
 ## Disk Usage
 
