@@ -4,12 +4,6 @@ Some frequently used shell scripts and tips.
 
 Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line).
 
-## Key Remapping
-
-I swap `Backspace` and `Backslash/Pipe` key in `.bashrc`.
-
-I remap `Caps Lock` to `Ctrl` in GNOME Tweak Tool.
-
 ## Moving around in shell
 
 Shortcuts are Emacs-like.

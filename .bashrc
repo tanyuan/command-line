@@ -1,8 +1,3 @@
-# I remap Caps Lock to Ctrl in GNOME Tweak Tool
-# Swap the Backspace and Backslash/Pipe key
-xmodmap -e "keycode 51 = BackSpace"
-xmodmap -e "keycode 22 = backslash bar"
-
 # Open terminal new tab/window in the same directory
 . /etc/profile.d/vte.sh
 
