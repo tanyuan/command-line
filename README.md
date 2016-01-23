@@ -4,7 +4,21 @@ Some frequently used shell scripts and tips.
 
 Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line).
 
-## Moving around in shell
+## Command line tool
+
+### Autojump
+
+Install [Autojump](https://github.com/wting/autojump).
+
+`j DIR` to jump to frecency (frequency+recency) directory.
+
+### The Fuck
+
+Install [The Fuck](https://github.com/nvbn/thefuck).
+
+`fuck` to correct your command line typo. (nice!)
+
+## Moving around in Bash shell
 
 Shortcuts are Emacs-like.
 
@@ -55,19 +69,16 @@ Shortcuts are Emacs-like.
 1. `Alt-b` go backward.
 2. `Alt-d` to kill a word.
 
-## Autojump
 
-Install [Autojump](https://github.com/wting/autojump).
+## Useful commands
 
-`j DIR` to jump to frecency (frequency+recency) directory.
-
-## Disk Usage
+### Disk Usage
 
 ```
 df -h
 ```
 
-## Directory Size
+### Directory Size
 
 ```
 du -h
@@ -83,19 +94,19 @@ Show only one directory deep:
 du -h -d 1
 ```
 
-## Count how many files
+### Count how many files
 
 ```
 ls -1 | wc -l
 ```
 
-## Show running process
+### Show running process
 
 ```
 ps aux | grep PROCESS
 ```
 
-## Process priority
+### Process priority
 
 Highest from 19 to -20.
 
@@ -109,19 +120,19 @@ Reset a priority of a running process to 9:
 sudo renice -9 PID
 ```
 
-## Timer
+### Timer
 
 ```
 time PROGRAM
 ```
 
-## Convert from Big-5 to UTF-8
+### Convert from Big-5 to UTF-8
 
 ```
 iconv -f big5 -t utf8 FILE
 ```
 
-## Remote copy
+### Remote copy
 
 Secure Copy SOURCE TARGET
 
