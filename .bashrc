@@ -48,3 +48,5 @@ alias grep='grep --color=auto -n'
 alias pdfgrep='pdfgrep -n'
 alias gcc='gcc -fdiagnostics-color'
 alias emacs='emacs --no-window-system'
+# Remap keys
+alias m='xmodmap ~/.Xmodmap'
