@@ -58,6 +58,10 @@ Shortcuts are Emacs-like.
 
 `Ctrl-d`: exit current shell
 
+### Comment out the current line
+
+Hit `#` when you don't want to run the current command, but would like to keep it in the history.
+
 ### Copy an argument again in current line:
 
 1. Type the argument.
