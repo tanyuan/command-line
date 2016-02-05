@@ -98,11 +98,42 @@ Show only one directory deep:
 du -h -d 1
 ```
 
+### File statistics
+
+Show line counts, word counts, and byte counts.
+```
+wc FILE
+```
+
+### Compare files and directory
+
+```
+diff FILE1 FILE2
+```
+
+```
+diff -r DIR1 DIR2
+```
+
 ### Count how many files
 
 ```
 ls -1 | wc -l
 ```
+
+### Search
+
+`grep` is regular expression search in files.
+
+```
+grep "STRING" FILE -A 10
+```
+
+- `-A 10` for with 10 lines after.
+- `-B 10` for with 10 lines before.
+- `-C 10` for with 10 lines after and before.
+
+`pdfgrep` is regular expression search in PDFs.
 
 ### Show running process
 
