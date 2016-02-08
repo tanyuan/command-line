@@ -6,13 +6,19 @@ Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ## Command line apps
 
+* [tmux](https://tmux.github.io/): open several shell windows and splits.
+
 * [Autojump](https://github.com/wting/autojump): `j DIR` to jump to frecency (frequency+recency) directory.
 
 * [The Fuck](https://github.com/nvbn/thefuck): `fuck` to correct your command line typo. (nice!)
 
-* [tmux](https://tmux.github.io/): open several shell windows and splits.
+* [fzf](https://github.com/junegunn/fzf): fuzzy finder that makes argument finder `Ctrl-t` and command history `Ctrl-r` more powerful.
+
+* [PathPicker](https://github.com/facebook/PathPicker): append `| fpp` to commands to make files in command ouput selectable with `Enter` to edit and `c` to run other command.
 
 * [Ranger](http://ranger.nongnu.org/): a Miller Column (three columns) file manager with Vi-like key bindings.
+
+* [trash-cli](https://github.com/andreafrancia/trash-cli): use `trash` instead of `rm` to move files to trash desktop environment.
 
 * [pdfgrep](https://pdfgrep.org/): grep PDFs.
 
