@@ -4,19 +4,25 @@ Some frequently used shell scripts and tips.
 
 Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line).
 
-## Command line tool
+## Command line apps
 
-### Autojump
+* [Autojump](https://github.com/wting/autojump): `j DIR` to jump to frecency (frequency+recency) directory.
 
-Install [Autojump](https://github.com/wting/autojump).
+* [The Fuck](https://github.com/nvbn/thefuck): `fuck` to correct your command line typo. (nice!)
 
-`j DIR` to jump to frecency (frequency+recency) directory.
+* [tmux](https://tmux.github.io/): open several shell windows and splits.
 
-### The Fuck
+* [Ranger](http://ranger.nongnu.org/): a Miller Column (three columns) file manager with Vi-like key bindings.
 
-Install [The Fuck](https://github.com/nvbn/thefuck).
+* [pdfgrep](https://pdfgrep.org/): grep PDFs.
 
-`fuck` to correct your command line typo. (nice!)
+* [todo-md](https://github.com/Hypercubed/todo-md): `todo`to read and edit GitHub-favored Markdown todo.md in directory.
+
+* [Geeknote](http://www.geeknote.me/): Evernote command line app to create, search  and edit notes.
+
+* [cmatrix](http://www.asty.org/cmatrix/): Matrix-like animation.
+ 
+* [archey3](http://www.generictestdomain.net/archey3/): show system information. Config file at `~/.archey3.cfg`
 
 ## Moving around in Bash shell
 
