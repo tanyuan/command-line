@@ -1,6 +1,9 @@
 # Open terminal new tab/window in the same directory
 . /etc/profile.d/vte.sh
 
+# Enable fuzzy finder fzf
+. /etc/profile.d/fzf.bash
+
 # Show git branch in prompt
 source /usr/share/git/completion/git-prompt.sh
 
@@ -32,21 +35,26 @@ function ranger-cd {
     rm -f -- "$tempfile"
 }
 
-# Bash commons
+# List shorcuts 
 alias ls='ls -F --color=auto'
 alias l='ls'
 alias ll='ls -alh'
+# Ask before remove (disable by -f force)
 alias rm='rm -i'
+# Run last command again with sudo
+alias please='sudo $(fc -ln -1)'
 
-# Program aliases
+# Program settings
+alias grep='grep --color=auto -n'
+alias pdfgrep='pdfgrep -n'
+alias gcc='gcc -fdiagnostics-color'
+alias emacs='emacs --no-window-system'
+# thefuck
+eval $(thefuck --alias)
+
+# Program shorcuts
 alias n='nautilus `pwd` &'
 alias d='cd ~/Desktop'
 alias D='cd ~/Dropbox'
 alias vi='vim'
 alias f='ranger-cd'
-alias grep='grep --color=auto -n'
-alias pdfgrep='pdfgrep -n'
-alias gcc='gcc -fdiagnostics-color'
-alias emacs='emacs --no-window-system'
-# Remap keys
-alias m='xmodmap ~/.Xmodmap'
