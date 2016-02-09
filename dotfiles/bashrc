@@ -42,7 +42,7 @@ alias ll='ls -alh'
 # Ask before remove (disable by -f force)
 alias rm='rm -i'
 # Run last command again with sudo
-alias please='sudo $(fc -ln -1)'
+alias please='sudo `fc -ln -1`'
 
 # Program settings
 alias grep='grep --color=auto -n'
@@ -58,3 +58,17 @@ alias d='cd ~/Desktop'
 alias D='cd ~/Dropbox'
 alias vi='vim'
 alias f='ranger-cd'
+
+# Connection aliases
+# No longer works
+#alias speech-ssh='ssh tanyuan@140.112.21.12 -p 2000'
+#alias bl-ssh='ssh tanyuan@140.112.41.88'
+#alias boeing-ssh='ssh boeing@140.112.41.94'
+#alias alg-ssh='ssh Alg15061@edaunion.ee.ntu.edu.tw -p 40060'
+#alias dc-ssh='ssh -Y b01058@cad36.ee.ntu.edu.tw'
+
+alias ptt='luit -encoding big5 telnet ptt.cc'
+alias pi-ssh='ssh pi@192.168.2.5 -X'
+
+# CMLab Server {3-22}
+alias cmlab='ssh tanyuan@cmlab3.csie.ntu.edu.tw'
