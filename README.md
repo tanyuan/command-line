@@ -26,6 +26,8 @@ Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 * [Geeknote](http://www.geeknote.me/): Evernote command line app to create, search  and edit notes.
 
+* [cool-retro-term](https://github.com/Swordfish90/cool-retro-term): a terminal emulator that mimics retro CRT screens. 
+
 * [cmatrix](http://www.asty.org/cmatrix/): Matrix-like animation.
  
 * [archey3](http://www.generictestdomain.net/archey3/): show system information. Config file at `~/.archey3.cfg`
