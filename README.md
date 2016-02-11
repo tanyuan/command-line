@@ -6,13 +6,15 @@ Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 ## Command line apps
 
+### Use them all the time
+
 * [tmux](https://tmux.github.io/): open several shell windows and splits.
 
 * [Autojump](https://github.com/wting/autojump): `j DIR` to jump to frecency (frequency+recency) directory.
 
-* [The Fuck](https://github.com/nvbn/thefuck): `fuck` to correct your command line typo. (nice!)
-
 * [fzf](https://github.com/junegunn/fzf): fuzzy finder that makes argument finder `Ctrl-t` and command history `Ctrl-r` more powerful.
+
+* [The Fuck](https://github.com/nvbn/thefuck): `fuck` to correct your command line typo. (nice!)
 
 * [PathPicker](https://github.com/facebook/PathPicker): append `| fpp` to commands to make files in command ouput selectable with `Enter` to edit and `c` to run other command.
 
@@ -26,11 +28,15 @@ Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line)
 
 * [Geeknote](http://www.geeknote.me/): Evernote command line app to create, search  and edit notes.
 
-* [cool-retro-term](https://github.com/Swordfish90/cool-retro-term): a terminal emulator that mimics retro CRT screens. 
+### Fun but not useful
 
 * [cmatrix](http://www.asty.org/cmatrix/): Matrix-like animation.
+
+* `cowsay`: ASCII animals to say or think anything.
+
+* `figlet`: create ASCII big text.
  
-* [archey3](http://www.generictestdomain.net/archey3/): show system information. Config file at `~/.archey3.cfg`
+* `screenfetch`: show system information with ASCII art of distro.
 
 ## Moving around in Bash shell
 
