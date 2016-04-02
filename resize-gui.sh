@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Resize image by Imagemagick
+
+usage(){
+	echo "Usage: $0 image"
+	exit 1
+}
+[[ $# -eq 0 ]] && usage
+
+SIZE=`zenity --entry --title="Resize Image" --text="Enter the maximum size:"`
+
+# If canceled in zenity
+if [[ $? -eq 1 ]]; then
+    exit 1
+fi
+
+fullfile=$1
+filename=$(basename "$fullfile")
+extension="${filename##*.}"
+filename="${filename%.*}"
+
+convert $fullfile -resize ${SIZE}x${SIZE} $filename-$SIZE.$extension
