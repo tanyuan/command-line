@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Copy file as Emacs Org-Mode link format
+
+fullname=$1
+extension="${fullname##*.}"
+filename="${fullname%.*}"
+
+LINK="$filename [[~/papers/$fullname][<PDF>]]"
+
+echo "$LINK" | xclip -selection clipboard

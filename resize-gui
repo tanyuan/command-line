@@ -15,9 +15,9 @@ if [[ $? -eq 1 ]]; then
     exit 1
 fi
 
-fullfile=$1
+fullfile="$1"
 filename=$(basename "$fullfile")
 extension="${filename##*.}"
 filename="${filename%.*}"
 
-convert $fullfile -resize ${SIZE}x${SIZE} $filename-$SIZE.$extension
+convert "$fullfile" -resize ${SIZE}x${SIZE} "$filename"-$SIZE.$extension

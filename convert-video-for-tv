@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Convert video for Sony Bravia TV compatible format
+
+VIDEO=$1
+
+ffmpeg -i $VIDEO -target ntsc-dvd "${VIDEO%.*}"-dvd.mpg

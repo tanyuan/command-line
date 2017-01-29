@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Append file link to Emacs Org-Mode file
+
+ORG_FILE="$HOME/org/capture.org"
+
+fullfile="$1"
+filename=$(basename "$fullfile")
+
+LINK="** [[$fullfile][$filename]]"
+
+echo "$LINK" >> $ORG_FILE
