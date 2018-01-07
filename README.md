@@ -1,52 +1,30 @@
-# Tanyuan using Command Line
+# command-line collection by tanyuan
 
 Some frequently used shell scripts and tips.
 
-Read [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line).
+    ln -s command-line/bin ~/bin
 
 ## Command line apps
 
-### Main applications
-
-* [tmux](https://tmux.github.io/): open several shell windows and splits.
-
-* [Ranger](http://ranger.nongnu.org/): a Miller Column (three columns) file manager with Vi-like key bindings.
-
-### Navigating
-
-* `tree`: view directories as a tree recursively. `-L 2` to show only 2 levels.
-
-* [Autojump](https://github.com/wting/autojump): `j DIR` to jump to frecency (frequency+recency) directory.
-
-* [fzf](https://github.com/junegunn/fzf): fuzzy finder that makes argument finder `Ctrl-t` and command history `Ctrl-r` more powerful.
-
-* [The Fuck](https://github.com/nvbn/thefuck): `fuck` to correct your command line typo. (nice!)
-
-* [PathPicker](https://github.com/facebook/PathPicker): append `| fpp` to commands to make files in command ouput selectable with `Enter` to edit and `c` to run other command.
-
-### Enhancing
-
-* [tldr](https://github.com/tldr-pages/tldr): `man` pages are too long; didn't read. Use `tldr COMMAND` instead.
-
-* [trash-cli](https://github.com/andreafrancia/trash-cli): use `trash` instead of `rm` to move files to trash desktop environment.
-
-* [pdfgrep](https://pdfgrep.org/): grep PDFs.
-
-### Note related
-
-* [todo-md](https://github.com/Hypercubed/todo-md): `todo`to read and edit GitHub-favored Markdown todo.md in directory.
-
-* [Geeknote](http://www.geeknote.me/): Evernote command line app to create, search  and edit notes.
+* [tmux](https://tmux.github.io/) - open several shell windows and splits.
+* [Ranger](http://ranger.nongnu.org/) - a Miller Column (three columns) file manager with Vi-like key bindings.
+* `tree` - view directories as a tree recursively. `-L 2` to show only 2 levels.
+* [Autojump](https://github.com/wting/autojump) - `j DIR` to jump to frecency (frequency+recency) directory.
+* [fzf](https://github.com/junegunn/fzf) - fuzzy finder that makes argument finder `Ctrl-t` and command history `Ctrl-r` more powerful.
+* [The Fuck](https://github.com/nvbn/thefuck) - `fuck` to correct your command line typo. (nice!)
+* [PathPicker](https://github.com/facebook/PathPicker) - append `| fpp` to commands to make files in command ouput selectable with `Enter` to edit and `c` to run other command.
+* [tig](https://github.com/jonas/tig) - git repo browser.
+* [tldr](https://github.com/tldr-pages/tldr) - `man` pages are too long; didn't read. Use `tldr COMMAND` instead.
+* [trash-cli](https://github.com/andreafrancia/trash-cli) - use `trash` instead of `rm` to move files to trash desktop environment.
+* [pdfgrep](https://pdfgrep.org/) - grep PDFs.
+* [todo-md](https://github.com/Hypercubed/todo-md) - `todo` to read and edit GitHub-favored Markdown todo.md in directory.
 
 ### Useless
 
-* [cmatrix](http://www.asty.org/cmatrix/): Matrix-like animation.
-
-* `cowsay`: ASCII animals to say or think anything.
-
-* `figlet`: create ASCII big text.
- 
-* `screenfetch`: show system information with ASCII art of distro.
+* [cmatrix](http://www.asty.org/cmatrix/) - Matrix-like animation.
+* `cowsay` - ASCII animals to say or think anything.
+* `figlet` - create ASCII big text.
+* `screenfetch` - show system information with ASCII art of distro.
 
 ## Moving around in Bash shell
 
@@ -204,3 +182,7 @@ Secure Copy SOURCE TARGET
 ```
 scp [-r] USERNAME@IP:DIR TARGET_DIR
 ```
+
+## Read more
+
+* [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line).
