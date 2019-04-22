@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Get JSON from a URL
+curl "http://fuckyeahmarkdown.com/go/?u=$1\&read=1\&md=1\&output=json" > tmp
+
+# Extract article title from JSON
+TITLE=$(cat tmp | jq -r '.title' | tr ' ' '_')
+
+# Save a Markdown file named with the article title
+cat tmp | jq -r '.markdown' > "$TITLE".md
+
+# Remove the temporary file
+rm -f tmp
